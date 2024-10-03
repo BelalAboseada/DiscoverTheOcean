@@ -1,7 +1,7 @@
 import Ocean_img from "../../assets/images/Ocean.jpg";
 const Ocean = () => {
   return (
-    <div className="Ocean relative flex justify-center items-center h-[150vh]">
+    <div className="Ocean relative flex justify-center items-center h-[150vh] z-30">
       <div className="ocean_image  absolute ">
         <img
           src={Ocean_img}
