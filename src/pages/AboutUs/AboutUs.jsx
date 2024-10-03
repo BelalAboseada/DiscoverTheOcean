@@ -44,7 +44,7 @@ const AboutUs = () => {
         inceptos
         <br /> himenaeos
       </p>
-      <div className="Avatars grid grid-cols-6 gap-4  my-4">
+      <div className="Avatars grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4  my-4">
         {AvatarsData.map((avatar, index) => (
           <div key={index} className="Avatar flex flex-col  items-center col-span-1">
             <img src={avatar.image} alt={avatar.name}  className="w-40 h-40 rounded-full object-cover "/>

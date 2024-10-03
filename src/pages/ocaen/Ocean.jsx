@@ -6,7 +6,8 @@ const Ocean = () => {
         <img
           src={Ocean_img}
           alt="Ocean image"
-          className=" w-full  -z-10"
+          className=" w-full h-full  -z-10 object-cover"
+          loading="lazy"
         />
       </div>
     </div>
