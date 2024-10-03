@@ -35,7 +35,7 @@ const AboutUs = () => {
    
   ];
   return (
-    <div className="AboutUs  p-2 bg-light-md bottom-0  w-full">
+    <div className="AboutUs  p-2 bg-light-md  bottom-0 w-full z-10 ">
       <h1 className="Team font-semibold text-4xl text-blue my-3 mx-4">AOC Team</h1>
       <p className="font-normal text-base my-3 mx-4 ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel porta
