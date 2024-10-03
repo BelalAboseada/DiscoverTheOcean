@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue-dark: #002a41;
+  --blue-md: #006197;
+  --blue-light: #0384cc;
+  --blue-lightest: #bbe8ff;
+  --light: #fdfeff;
+  --light-md: #edf9ff;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+  direction: ltr;
+  background-color: var(--light);
+}
