@@ -1,8 +1,5 @@
 import { useState, useEffect } from "react";
 import moon from "@images/Moon3.png";
-import Caporia from "@images/Caporia.png";
-import Snake from "@images/Snake.png";
-
 import "./style.scss";
 
 const Hero = () => {
@@ -24,15 +21,14 @@ const Hero = () => {
     <div className="Hero h-[300vh] main_bg overflow-hidden">
       <div className="logo absolute left-4 top-4 z-10">
         <span className="font-bold md:font-extrabold text-base text-light">
-          Discover
-          <br /> Europa
-          <br /> ocean
+          Discover our
+          <br /> Europa ocean
         </span>
       </div>
       <div className="content h-[100vh]  relative flex justify-center">
-        {scrollY <= 600 && (
+        {scrollY <= 650 && (
           <div
-            className="moon absolute z-10  mt-36  lg:mt-40"
+            className="moon absolute z-10  mt-36  "
             id="moon"
             style={{
               transform: `translateY(${scrollY * 0.5}px) rotate(${-Math.min(
@@ -67,7 +63,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="absolute lg:bottom-44 lg:left-32 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] "
+          className="absolute lg:bottom-14 lg:left-36 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] "
           // data-aos="zoom-in"
           // data-aos-offset="500"
           // data-aos-duration="500"
@@ -82,18 +78,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="ocean h-[200vh] relative">
-        <span className="absolute top-[15vh] right-[50vh]">
-          <img src={Caporia} alt="Caporia" />
-        </span>
-        <span className="absolute  top-[65vh] right-16">
-          <img src={Snake} alt="Snake" />
-        </span>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[10vh] left-16"
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[25vh] left-[70vh] "
           style={{
             background: "#FBFBFBA6",
           }}
-          data-aos="fade-right"
+          data-aos="zoom-in"
           // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
@@ -104,7 +94,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[20vh] right-16"
+          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[60vh] right-24"
           style={{
             background: "#FBFBFBA6",
           }}
@@ -123,7 +113,7 @@ const Hero = () => {
           </ul>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[50vh] left-16"
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[90vh] left-16"
           style={{
             background: "#FBFBFBA6",
           }}
@@ -140,7 +130,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[60vh] right-16"
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[130vh] right-16"
           style={{
             background: "#FBFBFBA6",
           }}
