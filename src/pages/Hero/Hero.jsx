@@ -50,19 +50,19 @@ const Hero = () => {
 
         <div className="absolute top-16 right-12 md:top-20 lg:top-24 md:right-16 lg:right-20 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px]">
           <p className="text-xs font-light md:text-sm lg:text-base text-light-md lg:font-normal ">
-            Icy Surface which is 10:15 miles thick It is exposed to constant
-            radiation from Jupiter. its thickness prevents sunlight from
-            reaching the ocean below, but this thickness protects the ocean
-            beneath it from direct exposure to radiation
-          </p>
-        </div>
-        <div className="absolute lg:bottom-14 lg:left-36 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] ">
-          <p className="text-xs font-light md:text-sm lg:text-base text-light-md lg:font-normal">
             Europa&apos;s subsurface ocean contains salty cold water, but with
             temperatures near thermal vents reaching 80°C to 120°C under high
             pressure. Rich in volcanic gases like H2S, CH4, H2, C, and N2, it
             spans depths from 40 to 150 miles. These conditions make it a key
             focus in the search for extraterrestrial life.
+          </p>
+        </div>
+        <div className="absolute lg:bottom-14 lg:left-36 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] ">
+          <p className="text-xs font-light md:text-sm lg:text-base text-light-md lg:font-normal">
+            Icy Surface which is 10:15 miles thick It is exposed to constant
+            radiation from Jupiter. its thickness prevents sunlight from
+            reaching the ocean below, but this thickness protects the ocean
+            beneath it from direct exposure to radiation
           </p>
         </div>
       </div>

@@ -9,8 +9,7 @@ const EcoSystem = () => {
       <p className="m-2 text-sm md:text-base font-normal md:font-medium ">
         <span className="font-semibold underline underline-offset-1">
           <a
-            href="https://deepoceaneducation.org/resources/chemosynthesis/
-"
+            href="https://deepoceaneducation.org/resources/chemosynthesis/"
             target="_blank"
             rel="noopener noreferrer"
           >

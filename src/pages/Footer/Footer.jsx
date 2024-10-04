@@ -4,14 +4,13 @@ import {
   WhatsappShareButton,
   TwitterShareButton,
   FacebookShareButton,
- EmailShareButton,
+  EmailShareButton,
   LinkedinShareButton,
 } from "react-share";
 
 const Footer = () => {
-
-    const shareUrl = "https://discover-the-ocean.vercel.app/"; 
-      const title = "Europa Ocean"; 
+  const shareUrl = "https://discover-the-ocean.vercel.app/";
+  const title = "Europa Ocean";
   return (
     <div className="Footer bg-blue-md flex items-center justify-center flex-col ">
       <h3
