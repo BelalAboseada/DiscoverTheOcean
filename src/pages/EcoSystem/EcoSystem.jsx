@@ -60,18 +60,18 @@ const EcoSystem = () => {
   ];
 
   return (
-    <div className="EcoSystem bg-light py-3 ">
-      <h1 className="title m-2 text-2xl font-bold text-blue-dark px-12">
+    <div className="EcoSystem bg-light py-3 px-12">
+      <h1 className="title m-2 text-2xl font-bold text-blue-dark ">
         Europa Ecosystem
       </h1>
-      <p className="m-2 text-sm md:text-base font-normal md:font-medium px-12">
+      <p className="m-2 text-sm md:text-base font-normal md:font-medium ">
         If life exists on Europa, it would likely resemble what we observe in
         Earth&apos;s deep oceans, relying on chemosynthesis around hydrothermal
         vents, with biodiversity ranging from microscopic organisms to simple
         multicellular life forms and potentially some complex organisms that
         evolved over billions of years.
       </p>
-      <div className="content grid grid-cols-8 gap-10 my-2 mx-8 px-8">
+      <div className="content grid grid-cols-8 gap-10 my-2 mx-8 ">
         {data.map((item) => (
           <div
             key={item.id}
