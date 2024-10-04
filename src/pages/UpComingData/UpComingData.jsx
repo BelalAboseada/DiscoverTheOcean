@@ -1,8 +1,8 @@
 const UpComingData = () => {
   return (
-    <div className="UpComingData bg-blue-dark  px-6 py-8 ">
+    <div className="UpComingData bg-blue-dark px-12  py-8 ">
       <p
-        className="text-lg md:text-xl lg:text-2xl font-normal md:font-medium  leading-loose"
+        className="text-lg md:text-xl lg:text-2xl font-normal md:font-medium  leading-loose "
         style={{
           color: "#A1B0C6",
         }}
@@ -12,11 +12,11 @@ const UpComingData = () => {
         scientific evidence that the ingredients for life may exist on Europa
         right now.
       </p>
-      <h4 className="text-lg md:text-xl lg:text-2xl font-semibold md:font-bold text-light leading-10 mt-12">
+      <h4 className="text-lg md:text-xl lg:text-2xl font-semibold md:font-bold text-light leading-10   mt-12">
         Explore Europa&apos;s ocean further by delving into these resources:
       </h4>
       <ul
-        className="list-disc  my-2 mx-4  font-light text-xl"
+        className="list-disc  my-2 mx-4   font-light text-xl"
         style={{
           color: "#A1B0C6",
         }}

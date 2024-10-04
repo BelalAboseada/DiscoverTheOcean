@@ -40,7 +40,7 @@ const AboutUs = () => {
     },
   ];
   return (
-    <div className="AboutUs  p-2 bg-blue-md  bottom-0 w-full z-10 ">
+    <div className="AboutUs  py-2 bg-blue-md  bottom-0 w-full px-12  z-10 ">
       <h1 className="Team font-semibold text-3xl md:text-4xl  text-light my-3 mx-4">
         Who is AOC team?
       </h1>
