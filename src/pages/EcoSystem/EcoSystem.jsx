@@ -1,9 +1,9 @@
-import image1 from "@images/Card_1.png";
-import image2 from "@images/Card_2.png";
-import image3 from "@images/Card_3.png";
-import image4 from "@images/Card_4.png";
-import image5 from "@images/Card_5.png";
-import image6 from "@images/Card_6.png";
+import image1 from "@images/eco_1.png";
+import image2 from "@images/eco_2.png";
+import image3 from "@images/eco_3.png";
+import image4 from "@images/eco_4.png";
+import image5 from "@images/eco_5.png";
+import image6 from "@images/eco_6.png";
 
 const EcoSystem = () => {
   const data = [
@@ -61,14 +61,14 @@ const EcoSystem = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="card col-span-6 md:col-span-3  lg:col-span-2 relative rounded-2xl overflow-hidden group"
+            className="eco col-span-6 md:col-span-3  lg:col-span-2 relative rounded-2xl overflow-hidden group"
           >
             <img
               src={item.image}
               alt={item.title}
-              className="card-image rounded-t-2xl object-cover"
+              className="eco-image rounded-t-2xl object-cover"
             />
-            <h2 className="card-title text-xl font-bold bg-blue-dark text-light px-2 py-4 rounded-b-2xl">
+            <h2 className="eco-title text-xl font-bold bg-blue-dark text-light px-2 py-4 rounded-b-2xl">
               {item.title}
             </h2>
             <div className="overlay absolute inset-0 bg-blue-dark bg-opacity-80 text-white p-4 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
