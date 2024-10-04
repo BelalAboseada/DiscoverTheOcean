@@ -75,14 +75,14 @@ const EcoSystem = () => {
         {data.map((item) => (
           <div
             key={item.id}
-            className="eco col-span-6 md:col-span-  lg:col-span-2 relative rounded-2xl overflow-hidden group"
+            className="eco col-span-2 md:col-span-2  lg:col-span-2 relative rounded-2xl overflow-hidden group"
           >
             <img
               src={item.image}
               alt={item.title}
-              className="eco-image rounded-t-2xl object-cover"
+              className="eco-image w-80   h-48 rounded-t-2xl object-cover"
             />
-            <h2 className="eco-title text-lg font-bold bg-blue-dark text-light px-2 py-4 rounded-b-2xl">
+            <h2 className="eco-title text-lg font-bold bg-blue-dark text-light px-2 py-4 rounded-b-2xl ">
               {item.title}
             </h2>
             <div className="overlay absolute inset-0 bg-blue-dark bg-opacity-80 text-white p-4 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">

@@ -68,7 +68,7 @@ const Hero = () => {
       </div>
       <div className="ocean h-[200vh] relative">
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[25vh] left-[70vh] backdrop-blur-lg"
+          className="Popup max-w-[300px]   w-fit p-3 absolute rounded-2xl top-[25vh] left-[70vh] backdrop-blur-lg"
           style={{
             background: "#5B6D89A3",
           }}
@@ -82,7 +82,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[65vh] right-24 backdrop-blur-lg"
+          className="Popup max-w-[350px]   w-fit p-3 absolute rounded-2xl top-[65vh] right-24 backdrop-blur-lg"
           style={{
             background: "#5B6D89A3",
           }}
@@ -100,7 +100,7 @@ const Hero = () => {
           </ul>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[90vh] left-16 backdrop-blur-lg"
+          className="Popup max-w-[300px]   w-fit p-3 absolute rounded-2xl top-[90vh] left-16 backdrop-blur-lg"
           style={{
             background: "#5B6D89A3",
           }}
@@ -116,7 +116,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[130vh] right-16 backdrop-blur-lg"
+          className="Popup max-w-[300px]   w-fit p-3 absolute rounded-2xl top-[130vh] right-16 backdrop-blur-lg"
           style={{
             background: "#5B6D89A3",
           }}
@@ -155,7 +155,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[400px]   w-fit p-2 absolute rounded-2xl top-[165vh] right-16 backdrop-blur-lg "
+          className="Popup max-w-[400px]   w-fit p-3 absolute rounded-2xl top-[165vh] right-16 backdrop-blur-lg "
           style={{
             background: "#5B6D89A3",
           }}
