@@ -2,15 +2,24 @@ const UpComingData = () => {
   return (
     <div className="UpComingData bg-blue-dark px-12  py-8 ">
       <p
-        className="text-lg md:text-xl lg:text-2xl font-normal md:font-medium  leading-loose "
+        className="text-base md:text-xl lg:text-2xl font-normal md:font-normal  leading-loose "
         style={{
           color: "#A1B0C6",
         }}
       >
-        Europa Clipper is launching Oct. 10, 2024, on the first mission to
-        conduct a detailed study of Jupiter&apos;s moon Europa. There’s
-        scientific evidence that the ingredients for life may exist on Europa
-        right now.
+        <span className="font-semibold underline underline-offset-1">
+          <a
+            href="https://science.nasa.gov/mission/europa-clipper/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Europa Clipper
+          </a>
+        </span>{" "}
+        is launching Oct. 10, 2024, on the first mission to conduct a detailed
+        study of Jupiter&apos;s moon Europa. There’s scientific evidence that
+        the ingredients for life may exist on Europa right now.
       </p>
       <h4 className="text-lg md:text-xl lg:text-2xl font-semibold md:font-bold text-light leading-10   mt-12">
         Explore Europa&apos;s ocean further by delving into these resources:

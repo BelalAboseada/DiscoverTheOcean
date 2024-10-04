@@ -1,44 +1,6 @@
-import Belal from "../../assets/images/Belal.jpeg";
-import Ahmed from "../../assets/images/Ahmed.png";
-import Adham from "../../assets/images/Adham.png";
-import Rana from "../../assets/images/Rana.jpg";
-import Nour from "../../assets/images/Nour.jpg";
-import Mahmoud from "../../assets/images/Mahmoud.jpg";
+import { avatarsData } from "../../assets/data/data";
 
 const AboutUs = () => {
-  // Avatars
-  const AvatarsData = [
-    {
-      name: "Adham Mokhtar",
-      role: "Geophysicist, Scientific Officer.",
-      image: Adham,
-    },
-    {
-      name: "Belal Abo seada",
-      role: "Frontend Developer",
-      image: Belal,
-    },
-    {
-      name: "Mahynour Sammany",
-      role: "UI UX Designer",
-      image: Nour,
-    },
-    {
-      name: "Ahmed Ali ",
-      role: "Technical Support",
-      image: Ahmed,
-    },
-    {
-      name: "Rana Sherif ",
-      role: "Graphic Designer",
-      image: Rana,
-    },
-    {
-      name: "Mahmoud Hafez",
-      role: "Video Editor",
-      image: Mahmoud,
-    },
-  ];
   return (
     <div className="AboutUs  py-2 bg-blue-md  bottom-0 w-full px-12  z-10 ">
       <h1 className="Team font-semibold text-3xl md:text-4xl  text-light my-3 mx-4">
@@ -53,7 +15,7 @@ const AboutUs = () => {
         perspectives to this fascinating challenge.
       </p>
       <div className="Avatars grid grid-cols-1   md:grid-cols-3 lg:grid-cols-6 gap-4  my-4">
-        {AvatarsData.map((avatar, index) => (
+        {avatarsData.map((avatar, index) => (
           <div
             key={index}
             className="Avatar flex flex-col  items-center col-span-1"
@@ -62,6 +24,7 @@ const AboutUs = () => {
               src={avatar.image}
               alt={avatar.name}
               className="w-40 h-40 rounded-full object-scale-down bg-light-md "
+              loading="lazy"
             />
             <h2 className="Name font-semibold text-xl my-1 text-light">
               {avatar.name}

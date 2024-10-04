@@ -1,6 +1,17 @@
-import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
+import {
+  WhatsappShareButton,
+  TwitterShareButton,
+  FacebookShareButton,
+ EmailShareButton,
+  LinkedinShareButton,
+} from "react-share";
 
 const Footer = () => {
+
+    const shareUrl = "https://discover-the-ocean.vercel.app/"; 
+      const title = "Europa Ocean"; 
   return (
     <div className="Footer bg-blue-md flex items-center justify-center flex-col ">
       <h3
@@ -11,8 +22,16 @@ const Footer = () => {
       >
         Share with your community
       </h3>
-      <div className="social grid grid-cols-4 gap-4 my-2">
-        <a href="">
+      <div className="social grid grid-cols-5 gap-4 my-2">
+        <WhatsappShareButton url={shareUrl} title={title}>
+          <FaWhatsapp
+            className="text-light-md w-8 h-8"
+            style={{
+              color: "#A1B0C6",
+            }}
+          />
+        </WhatsappShareButton>
+        <LinkedinShareButton url={shareUrl} title={title}>
           <span>
             <FaLinkedin
               className="text-light-md w-8 h-8"
@@ -21,28 +40,28 @@ const Footer = () => {
               }}
             />
           </span>
-        </a>
-        <a href="">
+        </LinkedinShareButton>
+        <FacebookShareButton url={shareUrl} title={title}>
           <span>
-            <FaInstagram
+            <FaFacebook
               className="text-light-md w-8 h-8"
               style={{
                 color: "#A1B0C6",
               }}
             />
           </span>
-        </a>
-        <a href="">
+        </FacebookShareButton>
+        <EmailShareButton url={shareUrl} title={title}>
           <span>
-            <FaYoutube
+            <IoMail
               className="text-light-md w-8 h-8"
               style={{
                 color: "#A1B0C6",
               }}
             />
           </span>
-        </a>
-        <a href="">
+        </EmailShareButton>
+        <TwitterShareButton url={shareUrl} title={title}>
           <span>
             <FaTwitter
               className="text-light-md w-8 h-8"
@@ -51,7 +70,7 @@ const Footer = () => {
               }}
             />
           </span>
-        </a>
+        </TwitterShareButton>
       </div>
     </div>
   );
