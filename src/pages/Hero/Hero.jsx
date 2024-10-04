@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div className="Hero h-[300vh] main_bg overflow-hidden">
       <div className="logo absolute left-4 top-4 z-10">
-        <span className="font-bold md:font-extrabold text-base text-light">
+        <span className="font-bold md:font-extrabold text-base text-light-md text-light">
           Discover our
           <br /> Europa ocean
         </span>
@@ -48,27 +48,16 @@ const Hero = () => {
           </div>
         )}
 
-        <div
-          className="absolute top-16 right-12 md:top-20 lg:top-24 md:right-16 lg:right-20 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px]"
-          // data-aos="zoom-in"
-          // data-aos-offset="500"
-          // data-aos-duration="500"
-          // data-aos-easing="ease-out-cubic"
-        >
-          <p className="text-xs font-light md:text-sm lg:text-base lg:font-normal">
+        <div className="absolute top-16 right-12 md:top-20 lg:top-24 md:right-16 lg:right-20 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px]">
+          <p className="text-xs font-light md:text-sm lg:text-base text-light-md lg:font-normal ">
             Icy Surface which is 10:15 miles thick It is exposed to constant
             radiation from Jupiter. its thickness prevents sunlight from
             reaching the ocean below, but this thickness protects the ocean
             beneath it from direct exposure to radiation
           </p>
         </div>
-        <div
-          className="absolute lg:bottom-14 lg:left-36 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] "
-          // data-aos="zoom-in"
-          // data-aos-offset="500"
-          // data-aos-duration="500"
-        >
-          <p className="text-xs font-light md:text-sm lg:text-base lg:font-normal">
+        <div className="absolute lg:bottom-14 lg:left-36 bottom-36 left-20 md:bottom-12  md:left-16 text-light m-2 p-2 max-w-[350px] md:max-w-[400px] lg:max-w-[500px] ">
+          <p className="text-xs font-light md:text-sm lg:text-base text-light-md lg:font-normal">
             Europa&apos;s subsurface ocean contains salty cold water, but with
             temperatures near thermal vents reaching 80°C to 120°C under high
             pressure. Rich in volcanic gases like H2S, CH4, H2, C, and N2, it
@@ -79,50 +68,47 @@ const Hero = () => {
       </div>
       <div className="ocean h-[200vh] relative">
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[25vh] left-[70vh] "
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[25vh] left-[70vh] backdrop-blur-lg"
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="zoom-in"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-medium">
+          <p className=" text-base text-light-md font-medium">
             Europe ocean is considered one of the most promising places in the
             Solar system to look for life beyond earth.
           </p>
         </div>
         <div
-          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[60vh] right-24"
+          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[60vh] right-24 backdrop-blur-lg"
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="fade-left"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-semibold">
+          <p className=" text-base text-light-md font-semibold">
             There are three main requirements to life!
           </p>
-          <ul className="list-disc text-base font-medium px-4">
+          <ul className="list-disc text-base text-light-md font-medium px-4">
             <li>Liquid water </li>
             <li>Certain chemical elements </li>
             <li>Energy Source</li>
           </ul>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[90vh] left-16"
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[90vh] left-16 backdrop-blur-lg"
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="fade-right"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-medium">
+          <p className=" text-base text-light-md font-medium">
             <span className="font-semibold block">Liquid water</span> ocean
             contains salty cold water, but with temperatures near thermal vents
             reaching <span className="font-semibold">80°C</span> to{" "}
@@ -130,16 +116,15 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[130vh] right-16"
+          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[130vh] right-16 backdrop-blur-lg"
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="fade-left"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-medium">
+          <p className=" text-base text-light-md font-medium">
             <span className="block font-semibold"> Certain Chemicals</span> This
             water rich in volcanic gases like{" "}
             <span className="font-semibold">H2S, CH4, H2, C,</span> and N2, it
@@ -148,16 +133,15 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[400px]   w-fit p-2 absolute rounded-2xl top-[150vh] left-16"
+          className="Popup max-w-[400px]   w-fit p-3 absolute rounded-2xl top-[150vh] left-16  backdrop-blur-lg "
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="fade-right"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-medium">
+          <p className=" text-base text-light-md  font-medium ">
             <span className="block font-semibold">
               Energy Source Geological feature
             </span>{" "}
@@ -171,16 +155,15 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[300px]   w-fit p-2 absolute rounded-2xl top-[165vh] right-16"
+          className="Popup max-w-[400px]   w-fit p-2 absolute rounded-2xl top-[165vh] right-16 backdrop-blur-lg "
           style={{
-            background: "#FBFBFBA6",
+            background: "#5B6D89A3",
           }}
           data-aos="fade-left"
-          // data-aos-easing="ease-out-cubic"
           data-aos-offset="500"
           data-aos-duration="500"
         >
-          <p className=" text-base font-medium">
+          <p className=" text-base text-light-md  font-medium">
             <span className="font-semibold "> Hydrothermal veins </span>{" "}
             Geological openings produce streams of hot water rich in minerals
             necessary for chemosynthesis processes and are also the main source
