@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import Lottie from "lottie-react";
-import LoadingData from "../../assets/images/Loader.json";
+import LoadingData from "@images/Loader.json";
 
 const Loader = ({ className }) => {
   return (

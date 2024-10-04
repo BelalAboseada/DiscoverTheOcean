@@ -1,9 +1,9 @@
-import image1 from "../../assets/images/Card_1.png";
-import image2 from "../../assets/images/Card_2.png";
-import image3 from "../../assets/images/Card_3.png";
-import image4 from "../../assets/images/Card_4.png";
-import image5 from "../../assets/images/Card_5.png";
-import image6 from "../../assets/images/Card_6.png";
+import image1 from "@images/Card_1.png";
+import image2 from "@images/Card_2.png";
+import image3 from "@images/Card_3.png";
+import image4 from "@images/Card_4.png";
+import image5 from "@images/Card_5.png";
+import image6 from "@images/Card_6.png";
 
 const EcoSystem = () => {
   const data = [

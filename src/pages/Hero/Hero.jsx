@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import moon from "../../assets/images/Moon3.png";
-import Caporia from "../../assets/images/Caporia.png";
-import Snake from "../../assets/images/Snake.png";
+import moon from "@images/Moon3.png";
+import Caporia from "@images/Caporia.png";
+import Snake from "@images/Snake.png";
 
 import "./style.scss";
 
