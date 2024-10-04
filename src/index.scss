@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --blue-dark: #002a41;
-  --blue-md: #006197;
+  --blue-dark: #000F27;
+  --blue-md: #011535;
   --blue-light: #0384cc;
   --blue-lightest: #bbe8ff;
   --light: #fdfeff;
@@ -29,4 +29,31 @@ body {
   direction: ltr;
   background-color: var(--light);
   transition: all ease-in-out 0.3s;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--blue-md);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--blue-light);
 }

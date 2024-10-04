@@ -1,6 +1,26 @@
 .main_bg{
-    background-image: url("../../assets/images/Main_bg.png");
+    background-image: url("../../assets/images/Hero.jpg");
     background-size: cover;
-    height: 150vh;
+    height: 250vh;
+    background-repeat: no-repeat;
     background-position:center ;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
 }
+
+.arrow {
+  pointer-events: none;
+}
+
+.arrow__path {
+  stroke: #000;
+  fill: transparent;
+  stroke-dasharray: 4 2;
+}
+
+.arrow__head line {
+  stroke: #000;
+  stroke-width: 1px;
+}
+

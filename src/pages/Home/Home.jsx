@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import AboutUs from "../AboutUs/AboutUs";
 import Hero from "../Hero/Hero";
 import Loader from "../../components/Loader/Loader";
-import Ocean from "../ocaen/Ocean";
+import EcoSystem from "../EcoSystem/EcoSystem";
 import UpComingData from "../UpComingData/UpComingData";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,9 +27,10 @@ const Home = () => {
       ) : (
         <>
           <Hero />
-          <Ocean />
-          <UpComingData />
+          <EcoSystem />
+          <UpComingData /> 
           <AboutUs />
+          <Footer />
         </>
       )}
     </div>
