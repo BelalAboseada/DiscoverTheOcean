@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div className="Hero h-[300vh] main_bg overflow-hidden">
       <div className="logo absolute left-4 top-4 z-10">
-        <span className="font-bold md:font-extrabold text-base text-light-md text-light">
+        <span className="font-bold md:font-extrabold text-base text-light-md ">
           Discover our
           <br /> Europa ocean
         </span>
@@ -82,7 +82,7 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[60vh] right-24 backdrop-blur-lg"
+          className="Popup max-w-[350px]   w-fit p-2 absolute rounded-2xl top-[65vh] right-24 backdrop-blur-lg"
           style={{
             background: "#5B6D89A3",
           }}
