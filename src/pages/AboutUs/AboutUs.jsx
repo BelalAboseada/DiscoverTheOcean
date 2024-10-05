@@ -14,7 +14,7 @@ const AboutUs = () => {
         the potential ecosystem of Europa&apos;s ocean, contributing our unique
         perspectives to this fascinating challenge.
       </p>
-      <div className="Avatars grid grid-cols-3   md:grid-cols-3 lg:grid-cols-6 gap-4  my-4">
+      <div className="Avatars grid grid-cols-1   md:grid-cols-3 lg:grid-cols-6 gap-4  my-4">
         {avatarsData.map((avatar, index) => (
           <div
             key={index}
@@ -23,7 +23,7 @@ const AboutUs = () => {
             <img
               src={avatar.image}
               alt={avatar.name}
-              className="w-28 md:w-40 h-28 md:h-40 rounded-full object-scale-down bg-light-md "
+              className="w-40 h-40 rounded-full object-scale-down bg-light-md "
               loading="lazy"
             />
             <h2 className="Name font-semibold text-xl my-1 text-light">
